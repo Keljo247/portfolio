@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Michael Joe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Courier+Prime&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar container">
+            <a href="index.html" class="logo">&lt;Michael Joe/&gt;</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link-item">Home</a></li>
+                <li><a href="about.html" class="nav-link-item">About</a></li>
+                <li><a href="projects.html" class="nav-link-item">Projects</a></li>
+                <li><a href="contact.html" class="nav-link-item">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container section-pad">
+         <h2 class="section-title"><span class="highlight">02.</span> Selected Projects</h2>
+         <p style="margin-bottom: 30px; color: var(--color-text-secondary);">Some things I've built during my first year.</p>
+         
+         <div class="projects-grid">
+             <div class="project-card">
+                 <h3>Portfolio Website v1</h3>
+                 <p style="color: var(--color-text-secondary); font-size: 15px;">
+                     My first attempt at building a personal portfolio site from scratch without frameworks. It taught me the importance of semantic HTML and CSS Flexbox layout.
+                 </p>
+                 <div class="project-tech-list">
+                     <span>HTML5</span><span>CSS3</span><span>VS Code</span>
+                 </div>
+             </div>
+
+             <div class="project-card">
+                 <h3>C++ Grade Calculator</h3>
+                 <p style="color: var(--color-text-secondary); font-size: 15px;">
+                     A console-based C++ program created for my Intro to Programming class. It takes user input for assignments and exams to calculate a weighted final grade.
+                 </p>
+                 <div class="project-tech-list">
+                     <span>C++</span><span>OOP</span><span>Console Icon</span>
+                 </div>
+             </div>
+             
+             <div class="project-card" style="opacity: 0.7; border: 1px dashed var(--color-text-secondary);">
+                 <h3 style="color: var(--color-text-secondary);">Coming Soon...</h3>
+                 <p style="color: var(--color-text-secondary); font-size: 15px;">
+                     Currently working on a Python script to automate file organization on my desktop.
+                 </p>
+                 <div class="project-tech-list">
+                     <span>Python</span><span>Automation</span>
+                 </div>
+             </div>
+         </div>
+    </main>
+
+    <footer>© 2024 Michael Joe. Built with HTML, CSS & JS.</footer>
+    <script src="script.js"></script>
+</body>
+</html>
